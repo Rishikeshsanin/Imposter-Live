@@ -65,13 +65,13 @@ http://localhost:5500
 
 ## 🗄 Database
 
-The database setup is stored in:
+The complete database setup is stored as ordered SQL migrations in:
 
 ```text
-supabase/migrations/001_imposter_live.sql
+supabase/migrations/
 ```
 
-It contains the schema, 700-card library, room/game RPC functions, realtime setup, RLS configuration, and supporting indexes.
+Run them in numeric order. Together they contain the schema, all 700 cards, room/game RPC functions, realtime setup, RLS configuration, permissions, and supporting indexes.
 
 ## 🎮 How to Play
 
